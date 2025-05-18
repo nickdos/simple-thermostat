@@ -68,7 +68,7 @@ ha-card.no-header {
   grid-gap: var(--st-spacing, var(--st-default-spacing));
   font-size: var(
     --st-font-size-sensors,
-    var(--ha-font-size-l, 16px)
+    var(--ha-font-size-l, 14px)
   );
 }
 .sensors.as-list {
@@ -145,10 +145,10 @@ header {
   font-weight: 400;
   line-height: var(--st-font-size-l, var(--ha-font-size-4xl));
   font-size: var(--st-font-size-l, var(--ha-font-size-4xl));
-  @media (--vp-m) {
-    font-size: var(--st-font-size-xl, var(--ha-font-size-5xl));
-    line-height: var(--st-font-size-xl, var(--ha-font-size-5xl));
-  }
+/*   @media (--vp-m) {
+    font-size: var(--st-font-size-l, var(--ha-font-size-4xl));
+    line-height: var(--st-font-size-l, var(--ha-font-size-4xl));
+  } */
 
   &.updating {
     color: var(--error-color);
