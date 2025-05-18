@@ -143,12 +143,12 @@ header {
   align-items: center;
   margin: 0;
   font-weight: 400;
-  line-height: var(--st-font-size-l, var(--ha-font-size-4xl));
-  font-size: var(--st-font-size-l, var(--ha-font-size-4xl));
-/*   @media (--vp-m) {
+  line-height: var(--st-font-size-m, var(--ha-font-size-3xl));
+  font-size: var(--st-font-size-m, var(--ha-font-size-3xl));
+  @media (--vp-m) {
     font-size: var(--st-font-size-l, var(--ha-font-size-4xl));
     line-height: var(--st-font-size-l, var(--ha-font-size-4xl));
-  } */
+  }
 
   &.updating {
     color: var(--error-color);
