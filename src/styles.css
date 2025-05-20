@@ -153,6 +153,10 @@ header {
 }
 .thermostat-trigger {
   padding: 0px;
+
+  &ha-icon {
+    font-size: var(--ha-font-size-m, 14px);
+  }
 }
 .clickable {
   cursor: pointer;
