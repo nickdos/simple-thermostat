@@ -34,16 +34,13 @@ ha-card.no-header {
   grid-auto-columns: minmax(min-content, auto);
   place-items: center;
   padding: 0 calc(var(--st-spacing, var(--st-default-spacing)) * 4);
-  padding-bottom: calc(var(--st-spacing, var(--st-default-spacing)) * 2);
+  /* padding-bottom: calc(var(--st-spacing, var(--st-default-spacing)) * 2); */
 }
 
 .toggle-label {
   color: var(--st-toggle-label-color, var(--primary-text-color));
   margin-right: calc(var(--st-spacing, var(--st-default-spacing)) * 2);
-  font-size: var(
-    --st-font-size-toggle-label,
-    var(--ha-font-size-l, 16px)
-  );
+  font-size: var(--st-font-size-toggle-label, var(--ha-font-size-l, 16px));
 }
 
 .faults {
@@ -66,10 +63,7 @@ ha-card.no-header {
 .sensors {
   display: grid;
   grid-gap: var(--st-spacing, var(--st-default-spacing));
-  font-size: var(
-    --st-font-size-sensors,
-    var(--ha-font-size-l, 14px)
-  );
+  font-size: var(--st-font-size-sensors, var(--ha-font-size-m, 14px));
 }
 .sensors.as-list {
   grid-auto-flow: column;
@@ -93,7 +87,7 @@ ha-card.no-header {
   padding-bottom: 4px;
 }
 .sensor-heading {
-  font-weight: 300;
+  font-weight: normal;
   padding-right: 8px;
   padding-bottom: 4px;
   white-space: nowrap;
@@ -178,10 +172,7 @@ header {
 .mode-title {
   padding: 0 16px;
   place-self: center;
-  font-size: var(
-    --st-font-size-sensors,
-    var(--ha-font-size-l, 16px)
-  );
+  font-size: var(--st-font-size-sensors, var(--ha-font-size-l, 16px));
   font-weight: 300;
   white-space: nowrap;
 }
@@ -245,4 +236,7 @@ ha-switch {
 .side-by-side > * {
   flex: 1;
   padding-right: 4px;
+}
+.mdc-icon-button {
+  font-size: 14px;
 }
