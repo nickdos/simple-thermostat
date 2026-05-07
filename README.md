@@ -2,6 +2,12 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
+THIS REPO IS NOT ACTIVE - DO NOT USE
+
+https://github.com/Wheemer/simple-thermostat is the recommended fork for this integration.
+
+---
+
 A different take on the thermostat card for Home Assistant Lovelace UI.
 The aim is to provide a card with simpler interactions that are easier to use and take up less space, as well as provide more modularity to tweak the card. For example the abiltity to embed sensor values that are relevant to your thermostat (like humidity, energy usage, hours on +++).
 
